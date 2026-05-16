@@ -1,0 +1,5 @@
+include:
+  - board: nice_nano//zmk@1
+    shield: microdox_v2_left
+  - board: nice_nano//zmk@1
+    shield: microdox_v2_right
