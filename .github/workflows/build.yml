@@ -10,9 +10,9 @@ jobs:
     name: Build
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Cache west modules
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         env:
           cache-name: cache-zephyr-modules
         with:
